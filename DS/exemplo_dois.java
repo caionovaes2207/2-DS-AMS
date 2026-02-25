@@ -12,9 +12,6 @@ public class exemplo_dois
         // Declaração de uma variável do tipo String
         String p;
 
-        // Chama o método digite(), que apenas mostra uma mensagem
-        digite();
-
         // Mostra uma caixa para o usuário digitar uma palavra
         p = JOptionPane.showInputDialog("Digite uma palavra qualquer: ");
 
@@ -27,13 +24,6 @@ public class exemplo_dois
         JOptionPane.showMessageDialog(null, p + " possui " + t + " caracteres");
     }
 
-    // Método sem retorno (void)
-    // Apenas exibe uma mensagem na tela
-    static void digite()
-    {
-        JOptionPane.showMessageDialog(null, "Digite uma palavra");
-    }
-
     // Método com retorno (int)
     // Recebe uma String como parâmetro
     static int tamanho(String x)
@@ -41,4 +31,5 @@ public class exemplo_dois
         
         return x.length(); // Retorna o tamanho da String 
     }
+
 }
