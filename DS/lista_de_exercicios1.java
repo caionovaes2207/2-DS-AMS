@@ -6,25 +6,27 @@ public class lista_de_exercicios1 {
         String nome;
         double nota1, nota2, media;
 
-        nome = JOptionPane.showInputDialog("digite o nome do aluno");
+        nome = JOptionPane.showInputDialog("digite o nome do aluno"); // le o nome que o usuario digitou
 
+        // chama o metodo lernota para pegar as notas
         nota1 = lerNota("digite a primeira nota");
         nota2 = lerNota("digite a segunda nota");
-        media = calcularmedia(nota1, nota2);
+        media = calcularmedia(nota1, nota2); // chama o metodo que calcula media
 
-        if (media >= 7.0) {
-            JOptionPane.showConfirmDialog(null, nome + " foi aprovado com media " + media);
+        if (media >= 7.0) { // ve se a media e maior ou igual a 7.0
+            JOptionPane.showConfirmDialog(null, nome + " foi aprovado com media " + media); 
         } else {
             JOptionPane.showConfirmDialog(null, nome + " foi reprovado commmedia " + media);
         }
   }
         static double lerNota(String mensagem) {
-            return Double.parseDouble(JOptionPane.showInputDialog(mensagem));
+            return Double.parseDouble(JOptionPane.showInputDialog(mensagem)); // mostra caixa de entrada, converte texto para double e retorna
         }
 
-        static double  calcularmedia(double n1, double n2) {
-            return (n1 + n2) / 2;
+        static double  calcularmedia(double n1, double n2) { // calcula a media de duas notas
+            return (n1 + n2) / 2; // retorna o calculo da media
         }
   
 }
+
 
