@@ -18,8 +18,13 @@ public class lista_de_exercicio4 {
             + "6 – Dobro\n"
             + "7 – Quadrado\n"
             + "8 – Cubo\n"
-            + "9 – Raiz Quadrada\n"));
+            + "9 – Raiz Quadrada\n"
+            + "0 - sair"));
 
+            if (opcao != 0); {
+                realizarCalculo(opcao);
+            }
+            
         } while (opcao != 0);
 
         JOptionPane.showMessageDialog(null, "Programa encerrado.");
@@ -106,4 +111,5 @@ public class lista_de_exercicio4 {
     static void mostrarResultado(double resultado) {
         JOptionPane.showMessageDialog(null, "Resultado: " + resultado);
     }
+
 }
