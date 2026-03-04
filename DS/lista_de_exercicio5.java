@@ -1,28 +1,32 @@
 import javax.swing.JOptionPane;
+
 public class lista_de_exercicio5 {
     public static void main(String[] args) {
 
-        double cateto1, cateto2, resultado;
+        double base, altura, resultado;
 
-        // Lê os valores
-        cateto1 = Double.parseDouble(
-                JOptionPane.showInputDialog("Digite o primeiro cateto:"));
+        // Lê a base do triângulo
+        base = Double.parseDouble(
+                JOptionPane.showInputDialog("Digite o valor da base:"));
 
-        cateto2 = Double.parseDouble(
-                JOptionPane.showInputDialog("Digite o segundo cateto:"));
+        // Lê a altura do triângulo
+        altura = Double.parseDouble(
+                JOptionPane.showInputDialog("Digite o valor da altura:"));
 
-        // Chama o método que calcula a hipotenusa
-        resultado = calcularHipotenusa(cateto1, cateto2);
+        // Chama o método hipotenusa
+        resultado = hipotenusa(base, altura);
 
         // Mostra o resultado
         JOptionPane.showMessageDialog(null,
                 "A hipotenusa é: " + resultado);
     }
 
-    // Método que calcula a hipotenusa
-    static double calcularHipotenusa(double a, double b) {
+    // Método que calcula e retorna a hipotenusa
+    static double hipotenusa(double base, double altura) {
 
-        return Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+        // Fórmula: √(base² + altura²)
+        return Math.sqrt(Math.pow(base, 2) + Math.pow(altura, 2));
     }
 }
+
 
