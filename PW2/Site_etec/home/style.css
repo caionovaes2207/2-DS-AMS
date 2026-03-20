@@ -1,0 +1,250 @@
+/*cabecalho*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TOPO BRANCO */
+.topo-branco {
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+/* LOGOS */
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* espaço entre logos */
+    margin-right: 100px;
+}
+
+/* TAMANHO DAS LOGOS */
+.logo-etec {
+    height: 70px;
+}
+
+.logo-cps {
+    height: 90px;
+}
+
+/* MENU VERMELHO */
+.menu-vermelho {
+    background-color: #b20000;
+}
+
+.menu-vermelho ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-vermelho ul li {
+    margin: 0 20px;
+}
+
+.menu-vermelho ul li a {
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.menu-vermelho ul li a:hover {
+    background-color: #8c0000;
+}
+/* cabecalho */
+
+/* BANNER */
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/primeira.png"); /* sua imagem */
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* FUNDO ESCURO PRA TEXTO FICAR LEGÍVEL */
+.banner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* CONTEÚDO */
+.banner-conteudo {
+    position: relative;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner-conteudo h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.banner-conteudo p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* BOTÕES */
+.botoes {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #b20000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #8c0000;
+}
+
+/* banner */
+
+/* FAIXA DE CONQUISTAS */
+.conquistas {
+    background-color: #b20000; /* vermelho padrão Etec */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+    text-align: center;
+    margin: 30px 20px;
+    border-radius: 10px;
+}
+
+.conquistas .item h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.conquistas .item p {
+    font-size: 16px;
+}
+
+/* SEÇÃO */
+.vantagens {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.vantagens h1 {
+    margin-bottom: 30px;
+}
+
+/* GRID DE CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 por linha */
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* CARD */
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* EFEITO HOVER */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* TEXTO */
+.card h2 {
+    margin-bottom: 10px;
+    color: #b20000;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* RODAPÉ */
+.rodape {
+    background-color: #222;
+    color: white;
+    margin-top: 40px;
+}
+
+/* CONTAINER */
+.rodape-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+/* COLUNAS */
+.rodape-coluna {
+    margin: 10px;
+    max-width: 200px;
+}
+
+/* TÍTULOS */
+.rodape-coluna h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* LINKS */
+.rodape-coluna a {
+    color: white;
+    text-decoration: none;
+}
+
+.rodape-coluna a:hover {
+    text-decoration: underline;
+}
+
+/* LOGO */
+.logo-rodape {
+    width: 120px;
+}
+
+/* PARTE DE BAIXO */
+.rodape-bottom {
+    background-color: #111;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
