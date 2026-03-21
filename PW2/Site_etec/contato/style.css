@@ -1,0 +1,223 @@
+/*cabecalho*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TOPO BRANCO */
+.topo-branco {
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+/* LOGOS */
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* espaço entre logos */
+    margin-right: 100px;
+}
+
+/* TAMANHO DAS LOGOS */
+.logo-etec {
+    height: 70px;
+}
+
+.logo-cps {
+    height: 90px;
+}
+
+/* MENU VERMELHO */
+.menu-vermelho {
+    background-color: #b20000;
+}
+
+.menu-vermelho ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-vermelho ul li {
+    margin: 0 20px;
+}
+
+.menu-vermelho ul li a {
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.menu-vermelho ul li a:hover {
+    background-color: #8c0000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+/* LOGO DO GOVERNO */
+.logo-governo img {
+    height: 50px; 
+    border-radius: 20px; 
+}
+
+/* CAIXA PRETA */
+.gov-box {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 30px; /* deixa formato de cápsula */
+}
+
+/* IMAGEM */
+.gov-box img {
+    height: 30px;
+}
+
+/* TEXTO */
+.gov-texto {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 12px;
+}
+
+.gov-texto strong {
+    font-size: 14px;
+}
+
+.gov-texto span {
+    font-size: 10px;
+}
+/* cabecalho */
+
+/* BANNER */
+.banner {
+    width: 100%;
+
+}
+
+/* PÁGINA CONTATO */
+.contato {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* FORMULÁRIO */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.formulario input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* BOTÃO */
+.formulario .btn {
+    background-color: #b20000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* PÁGINA CONTATO */
+.contato {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* FORMULÁRIO */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.formulario input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* BOTÃO */
+.formulario .btn {
+    background-color: #b20000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* RODAPÉ */
+.rodape {
+    background-color: #222;
+    color: white;
+    margin-top: 40px;
+}
+
+/* CONTAINER */
+.rodape-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+/* COLUNAS */
+.rodape-coluna {
+    margin: 10px;
+    max-width: 200px;
+}
+
+/* TÍTULOS */
+.rodape-coluna h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* LINKS */
+.rodape-coluna a {
+    color: white;
+    text-decoration: none;
+}
+
+.rodape-coluna a:hover {
+    text-decoration: underline;
+}
+
+/* LOGO */
+.logo-rodape {
+    width: 120px;
+}
+
+/* PARTE DE BAIXO */
+.rodape-bottom {
+    background-color: #111;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
