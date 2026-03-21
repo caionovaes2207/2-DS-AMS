@@ -13,10 +13,24 @@
 
     <div class="topo-branco">
         <div class="container">
+
+            <!-- LOGOS ESQUERDA -->
             <div class="logos">
                 <img src="../img/etec zl.png" class="logo-etec">
                 <img src="../img/centro paulo souza.jpg" class="logo-cps">
             </div>
+
+            <!-- CAIXA GOVERNO DIREITA -->
+            <div class="logo-governo">
+                <div class="gov-box">
+                    <img src="../img/governo-sp.png" alt="Governo SP">
+                    <div class="gov-texto">
+                        <strong><?php echo "São Paulo"; ?></strong>
+                        <span><?php echo "Governo do Estado"; ?></span>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -143,7 +157,7 @@
     </div>
 
     <div class="rodape-bottom">
-        <p><?php echo "© 2026 Etec Zona Leste | Todos os direitos reservados"; ?></p>
+        <p><?php echo "©️ 2026 Etec Zona Leste | Todos os direitos reservados"; ?></p>
     </div>
 
 </footer>
