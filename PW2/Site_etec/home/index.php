@@ -52,8 +52,8 @@
         <p><?php echo "Diversos cursos para várias áreas do conhecimento"; ?></p>
 
         <div class="botoes">
-            <a href="cursos.php" class="btn"><?php echo "Ver Cursos"; ?></a>
-            <a href="gestao.php" class="btn"><?php echo "Conhecer Gestão"; ?></a>
+            <a href="../cursos.php" class="btn"><?php echo "Ver Cursos"; ?></a>
+            <a href="../gestao.php" class="btn"><?php echo "Conhecer Gestão"; ?></a>
         </div>
     </div>
 </section>
