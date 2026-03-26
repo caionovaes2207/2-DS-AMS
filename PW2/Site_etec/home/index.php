@@ -8,19 +8,19 @@
 </head>
 <body>
 
-<!-- HEADER -->
+<!--header-->
 <header>
 
     <div class="topo-branco">
         <div class="container">
 
-            <!-- LOGOS ESQUERDA -->
+           
             <div class="logos">
                 <img src="../img/etec zl.png" class="logo-etec">
                 <img src="../img/centro paulo souza.jpg" class="logo-cps">
             </div>
 
-            <!-- CAIXA GOVERNO DIREITA -->
+            
             <div class="logo-governo">
                 <div class="gov-box">
                     <img src="../img/governo-sp.png" alt="Governo SP">
@@ -45,7 +45,7 @@
 
 </header>
 
-<!-- BANNER -->
+<!--banner-->
 <section class="banner">
     <div class="banner-conteudo">
         <h1><?php echo "Bem-vindo ao site da Etec Zona Leste"; ?></h1>
@@ -58,7 +58,7 @@
     </div>
 </section>
 
-<!-- CONQUISTAS -->
+<!--conquistas-->
 <h1 style="text-align:center;"><?php echo "Conquistas"; ?></h1>
 
 <section class="conquistas">
@@ -78,7 +78,7 @@
     </div>
 </section>
 
-<!-- VANTAGENS -->
+<!--vantagens-->
 <section class="vantagens">
 
     <h1><?php echo "Por que estudar na Etec Zona Leste?"; ?></h1>
@@ -119,7 +119,7 @@
 
 </section>
 
-<!-- RODAPÉ -->
+<!--rodapé-->
 <footer class="rodape">
 
     <div class="rodape-container">
