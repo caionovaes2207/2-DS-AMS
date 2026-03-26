@@ -34,7 +34,7 @@
         <ul>
             <li><a href="../home/index.php"><?php echo "Home"; ?></a></li>
             <li><a href="../cursos/cursos.php"><?php echo "Cursos"; ?></a></li>
-            <li><a href="../contato/contato.php"><?php echo "Contato"; ?></a></li>
+            <li><a href="../contato/contado.php"><?php echo "Contato"; ?></a></li>
             <li><a href="../gestão/gestao.php"><?php echo "Gestão"; ?></a></li>
         </ul>
     </nav>
