@@ -94,7 +94,90 @@
     </div>
 </section>
 
-<!-- (continua igual para os outros cursos...) -->
+<section id="ds" class="curso-detalhe">
+    <div class="curso-texto">
+        <h1><?php echo "Desenvolvimento de Sistemas"; ?></h1>
+
+        <p><?php echo "É o profissional que analisa e projeta sistemas, constrói, testa e mantém sistemas de informação."; ?></p>
+
+        <p><?php echo "O profissional pode atuar na área de tecnologia, desenvolvendo soluções inovadoras."; ?></p>
+    </div>
+
+    <div class="info-curso">
+        <div class="info-box"><h3><?php echo "Carga Horária"; ?></h3><p>1500 horas</p></div>
+        <div class="info-box"><h3><?php echo "Duração"; ?></h3><p>4 semestres</p></div>
+        <div class="info-box"><h3><?php echo "Tipo"; ?></h3><p><?php echo "Técnico"; ?></p></div>
+        <div class="info-box"><h3><?php echo "Eixo"; ?></h3><p><?php echo "Tecnologia da Informação"; ?></p></div>
+    </div>
+</section>
+
+<section id="rh" class="curso-detalhe">
+    <div class="curso-texto">
+        <h1><?php echo "Recursos Humanos"; ?></h1>
+
+        <p><?php echo "O curso prepara o aluno para atuar na gestão de pessoas dentro das organizações."; ?></p>
+
+        <p><?php echo "O profissional contribui para o crescimento das empresas através da valorização do capital humano."; ?></p>
+    </div>
+
+    <div class="info-curso">
+        <div class="info-box"><h3><?php echo "Carga Horária"; ?></h3><p>1000 horas</p></div>
+        <div class="info-box"><h3><?php echo "Duração"; ?></h3><p>2 semestres</p></div>
+        <div class="info-box"><h3><?php echo "Tipo"; ?></h3><p><?php echo "Técnico"; ?></p></div>
+        <div class="info-box"><h3><?php echo "Eixo"; ?></h3><p><?php echo "Gestão"; ?></p></div>
+    </div>
+</section>
+
+<section id="fin" class="curso-detalhe">
+    <div class="curso-texto">
+        <h1><?php echo "Finanças"; ?></h1>
+
+        <p><?php echo "O curso forma profissionais para atuar no controle e planejamento financeiro."; ?></p>
+
+        <p><?php echo "Essencial para a saúde financeira das organizações."; ?></p>
+    </div>
+
+    <div class="info-curso">
+        <div class="info-box"><h3><?php echo "Carga Horária"; ?></h3><p>1000 horas</p></div>
+        <div class="info-box"><h3><?php echo "Duração"; ?></h3><p>2 semestres</p></div>
+        <div class="info-box"><h3><?php echo "Tipo"; ?></h3><p><?php echo "Técnico"; ?></p></div>
+        <div class="info-box"><h3><?php echo "Eixo"; ?></h3><p><?php echo "Gestão"; ?></p></div>
+    </div>
+</section>
+
+<section id="cont" class="curso-detalhe">
+    <div class="curso-texto">
+        <h1><?php echo "Contabilidade"; ?></h1>
+
+        <p><?php echo "O curso desenvolve conhecimentos sobre balanços, impostos e controle patrimonial."; ?></p>
+
+        <p><?php echo "O profissional pode atuar em empresas e escritórios contábeis."; ?></p>
+    </div>
+
+    <div class="info-curso">
+        <div class="info-box"><h3><?php echo "Carga Horária"; ?></h3><p>1200 horas</p></div>
+        <div class="info-box"><h3><?php echo "Duração"; ?></h3><p>3 semestres</p></div>
+        <div class="info-box"><h3><?php echo "Tipo"; ?></h3><p><?php echo "Técnico"; ?></p></div>
+        <div class="info-box"><h3><?php echo "Eixo"; ?></h3><p><?php echo "Gestão"; ?></p></div>
+    </div>
+</section>
+
+<section id="jur" class="curso-detalhe">
+    <div class="curso-texto">
+        <h1><?php echo "Serviços Jurídicos"; ?></h1>
+
+        <p><?php echo "O curso aborda leis, documentos legais e processos jurídicos."; ?></p>
+
+        <p><?php echo "O profissional pode atuar em escritórios e órgãos públicos."; ?></p>
+    </div>
+
+    <div class="info-curso">
+        <div class="info-box"><h3><?php echo "Carga Horária"; ?></h3><p>1200 horas</p></div>
+        <div class="info-box"><h3><?php echo "Duração"; ?></h3><p>3 semestres</p></div>
+        <div class="info-box"><h3><?php echo "Tipo"; ?></h3><p><?php echo "Técnico"; ?></p></div>
+        <div class="info-box"><h3><?php echo "Eixo"; ?></h3><p><?php echo "Gestão"; ?></p></div>
+    </div>
+</section>
 
 <footer class="rodape">
     <div class="rodape-container">
