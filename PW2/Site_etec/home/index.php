@@ -23,7 +23,7 @@
             
             <div class="logo-governo">
                 <div class="gov-box">
-                    <img src="../img/governo-sp.png" alt="Governo SP">
+                    <img src="../img/sp.png" alt="Governo SP">
                     <div class="gov-texto">
                         <strong><?php echo "São Paulo"; ?></strong>
                         <span><?php echo "Governo do Estado"; ?></span>
