@@ -183,7 +183,7 @@
     <div class="rodape-container">
 
         <div class="rodape-coluna">
-            <img src="../img/centro paulo souza.jpg" class="logo-rodape">
+            <img src="../img/Logo_CPS.png" class="logo-rodape">
         </div>
 
         <div class="rodape-coluna">
