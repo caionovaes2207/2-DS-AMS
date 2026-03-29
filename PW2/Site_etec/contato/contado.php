@@ -77,7 +77,7 @@
     <div class="rodape-container">
 
         <div class="rodape-coluna">
-            <img src="../img/centro paulo souza.jpg" alt="Logo CPS" class="logo-rodape">
+            <img src="../img/Logo_CPS.png" alt="Logo CPS" class="logo-rodape">
         </div>
 
         <div class="rodape-coluna">
