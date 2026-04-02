@@ -16,7 +16,7 @@ Criar um site informativo contendo:
 
 ##  Página Inicial (Home)
 
-📌 **Objetivo:**  
+ **Objetivo:**  
 Apresentar a escola, destacar seus diferenciais e direcionar o usuário para outras páginas do site.
 
  **Preview:**  
