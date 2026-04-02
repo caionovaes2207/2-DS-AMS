@@ -17,7 +17,7 @@
         <!-- LOGOS ESQUERDA -->
         <div class="logos">
             <img src="../img/etec zl.png" class="logo-etec">
-            <img src="../img/centro paulo souza.jpg" class="logo-cps">
+            <img src="../img/Logo_CPS.png" class="logo-cps">
         </div>
 
         <!-- GOVERNO -->
