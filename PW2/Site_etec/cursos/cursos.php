@@ -54,7 +54,7 @@
     </div>
 </section>
 
-<!-- ADMINISTRAÇÃO -->
+<!-- administração -->
 <section id="adm" class="curso-detalhe">
     <div class="curso-texto">
         <h1><?php echo "Administração"; ?></h1>
@@ -74,7 +74,7 @@
     </div>
 </section>
 
-<!-- LOGÍSTICA -->
+<!-- logística -->
 <section id="log" class="curso-detalhe">
     <div class="curso-texto">
         <h1><?php echo "Logística"; ?></h1>
@@ -94,6 +94,7 @@
     </div>
 </section>
 
+<!-- Desenvolvimento de Sistemas -->
 <section id="ds" class="curso-detalhe">
     <div class="curso-texto">
         <h1><?php echo "Desenvolvimento de Sistemas"; ?></h1>
@@ -111,6 +112,7 @@
     </div>
 </section>
 
+    <!-- Recursos Humanos -->
 <section id="rh" class="curso-detalhe">
     <div class="curso-texto">
         <h1><?php echo "Recursos Humanos"; ?></h1>
@@ -128,6 +130,7 @@
     </div>
 </section>
 
+    <!-- Finanças -->
 <section id="fin" class="curso-detalhe">
     <div class="curso-texto">
         <h1><?php echo "Finanças"; ?></h1>
@@ -145,6 +148,7 @@
     </div>
 </section>
 
+    <!-- Contabilidade-->
 <section id="cont" class="curso-detalhe">
     <div class="curso-texto">
         <h1><?php echo "Contabilidade"; ?></h1>
@@ -162,6 +166,7 @@
     </div>
 </section>
 
+    <!-- Serviços Jurídicos -->
 <section id="jur" class="curso-detalhe">
     <div class="curso-texto">
         <h1><?php echo "Serviços Jurídicos"; ?></h1>
