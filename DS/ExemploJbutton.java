@@ -24,7 +24,7 @@ public class ExemploJbutton extends JFrame{
          botao2.setBounds(140,60,100,20);
          botao3.setBounds(140,100,100,20);
        
-        icone = new ImageIcon("abrir.gif");
+        icone = new ImageIcon("computer2_(stop)_16x16.gif");
        
         botao2.setIcon(icone);
         botao3.setIcon(icone);
