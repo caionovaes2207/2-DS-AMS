@@ -4,7 +4,6 @@
 
 package com.mycompany.operacoesjbutton;
 
-
 /**
  *
  * @author Admin
@@ -32,6 +31,8 @@ public class OperacoesJbutton extends JFrame {
          mult = new ImageIcon("Delete.gif");
          div = new ImageIcon("Up-down.gif");
          rai = new ImageIcon("Calculator.gif");
+         
+         // criação dos rotulo(titulos)
         rotulo1 = new JLabel("1º numero da soma: ");
         rotulo2 = new JLabel("2º numero da soma: ");
         rotulo3 = new JLabel("1º numero da multiplicação: ");
@@ -42,6 +43,8 @@ public class OperacoesJbutton extends JFrame {
         rotulo8 = new JLabel("2º numero da divisão: ");
         rotulo9 = new JLabel("1º numero da raiz: ");
         rotulo10 = new JLabel("2º numero da raiz: ");
+        
+        // criação das caixas de texto
         texto1 = new JTextField(5);
         texto2 = new JTextField(5);
         texto3 = new JTextField(5);
@@ -53,12 +56,15 @@ public class OperacoesJbutton extends JFrame {
         texto9 = new JTextField(5);
         texto10 = new JTextField(5);
         exibir = new JLabel("");
+        
+        // criação dos botões das contas
         somar = new JButton("Somar", soma);
         multuplicar = new JButton("Multiplicar", mult);
         subtrair = new JButton("Subtrair", sub);
         dividir = new JButton("Dividir", div);
         raiz = new JButton("Raiz", rai);
 
+        // define onde fica os rotulos e textos e as cores deles
         rotulo1.setBounds(50,20,150,20);
         rotulo2.setBounds(50,60,150,20);
         rotulo1.setForeground(Color.white);
@@ -152,6 +158,8 @@ public class OperacoesJbutton extends JFrame {
         });
 
         tela.setBackground(new Color(30,30,30));
+        
+        // adiciona os elementos na tela
         tela.add(rotulo1);
         tela.add(rotulo2);
         tela.add(rotulo3);
@@ -190,3 +198,4 @@ public class OperacoesJbutton extends JFrame {
     }
 
 }
+
