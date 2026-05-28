@@ -1,0 +1,45 @@
+// C++ code
+//
+#include <Servo.h>
+
+Servo servoMotor;
+
+const int botao = 6;
+const int led = 4;
+
+bool estadoServo = false;
+
+void setup() {
+
+  servoMotor.attach(5);
+
+  pinMode(botao, INPUT_PULLUP);
+  pinMode(led, OUTPUT);
+
+  servoMotor.write(0);
+  digitalWrite(led, LOW);
+}
+
+void loop() {
+
+  if (digitalRead(botao) == LOW) {
+
+    estadoServo = !estadoServo;
+
+    if (estadoServo) {
+
+      servoMotor.write(90);
+      digitalWrite(led, HIGH);
+
+    } else {
+
+      servoMotor.write(0);
+      digitalWrite(led, LOW);
+    }
+
+    while (digitalRead(botao) == LOW) {
+    }
+
+    delay(200);
+  }
+}
