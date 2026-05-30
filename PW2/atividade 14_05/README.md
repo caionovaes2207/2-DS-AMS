@@ -1,1 +1,31 @@
 <h1>atividade php</h1>
+
+<h2> atividade 1</h2>
+
+<img width="1242" height="982" alt="image" src="https://github.com/user-attachments/assets/598cc58b-7daa-4aee-839c-34d17a59dd02" />
+
+<h2> atividade 2</h2>
+
+<img width="1242" height="1411" alt="image" src="https://github.com/user-attachments/assets/528db6e1-7747-45ef-a087-7a27d5ac1683" />
+
+<h2> atividade 3</h2>
+
+<img width="1108" height="1600" alt="image" src="https://github.com/user-attachments/assets/e3acdb5a-8dd1-41a5-95c2-b77cfa4a83e1" />
+
+<h2> atividade 4</h2>
+
+<img width="1170" height="1600" alt="image" src="https://github.com/user-attachments/assets/2abd453d-aea2-4b49-b7b7-fb4ea0eb6c50" />
+
+<h2> atividade 5</h2>
+
+<img width="1242" height="1540" alt="image" src="https://github.com/user-attachments/assets/ad934012-6079-495a-814c-9cd15fa71a99" />
+
+<h2> atividade 6</h2>
+
+<img width="1242" height="1549" alt="image" src="https://github.com/user-attachments/assets/a99b1c0b-a8da-4240-a079-96f98dc9fedf" />
+
+<h2> atividade 7</h2>
+
+<img width="1242" height="768" alt="image" src="https://github.com/user-attachments/assets/4ab30e67-fa54-46a0-810e-2f005cc17470" />
+
+<h3> irei adicionar o resto das imagens em breve</h3>
