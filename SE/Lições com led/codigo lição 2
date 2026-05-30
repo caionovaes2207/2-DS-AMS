@@ -1,0 +1,42 @@
+// C++ code
+//
+const int ledamarelo = 8;
+const int ledverde = 9;
+const int ledvermelho = 10;
+const int ledazul = 11;
+const int BOTAO = 2;
+boolean estado_botao;
+void setup()
+{
+  pinMode(ledamarelo, OUTPUT);
+  pinMode(ledverde, OUTPUT);
+  pinMode(ledvermelho, OUTPUT);
+  pinMode(ledazul, OUTPUT);
+pinMode(BOTAO, INPUT);
+
+  Serial.begin(9600);
+}
+
+void loop()
+{
+estado_botao = digitalRead(BOTAO);
+  if (estado_botao) {
+  digitalWrite(BOTAO, HIGH);
+    delay(1000);
+  digitalWrite(ledamarelo, HIGH);
+    delay(1000);
+  digitalWrite(ledverde, HIGH);
+    delay(1000);
+    digitalWrite(ledvermelho, HIGH);
+    delay(1000);
+  digitalWrite(ledazul, HIGH);
+    delay(1000);
+    
+  }
+  else {
+    digitalWrite(ledamarelo, LOW);
+  digitalWrite(ledverde, LOW);
+    digitalWrite(ledvermelho, LOW);
+  digitalWrite(ledazul, LOW);
+  }
+}
