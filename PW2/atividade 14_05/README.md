@@ -28,4 +28,22 @@
 
 <img width="1242" height="768" alt="image" src="https://github.com/user-attachments/assets/4ab30e67-fa54-46a0-810e-2f005cc17470" />
 
-<h3> irei adicionar o resto das imagens em breve</h3>
+<h1>atividade 8</h1>
+
+<img width="1242" height="1544" alt="image" src="https://github.com/user-attachments/assets/09291c74-2b78-409a-9338-182fee961c99" />
+
+<h1>atividade 9</h1>
+
+<img width="1072" height="1600" alt="image" src="https://github.com/user-attachments/assets/41cbc070-93d3-4d1a-86ec-a2b1ca183307" />
+
+<h1>atividade 10</h1>
+
+<img width="1242" height="1544" alt="image" src="https://github.com/user-attachments/assets/1c296a8a-493c-4540-8a31-91570b0de65b" />
+
+<h1>atividade 11</h1>
+
+<img width="1242" height="1540" alt="image" src="https://github.com/user-attachments/assets/034bb2ab-25fe-4aa4-aeee-ad9524fddd64" />
+
+
+
+
