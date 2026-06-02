@@ -1,0 +1,20 @@
+// C++ code
+//
+int valor;  
+void setup()  
+{     
+  pinMode(6, OUTPUT);  
+ Serial.begin(9600);  
+}  
+void loop()  
+{       
+  valor = analogRead(A0);    
+  Serial.print("Valor =  ");  
+  if(valor > 500){ 
+    digitalWrite(6,HIGH); // liga o LED com valores acima  de 500 
+  }else{ 
+    digitalWrite(6,LOW); // desliga o LED com valores abaixo de 500 
+  } 
+  Serial.println(valor); 
+  delay(250);  
+} 
