@@ -9,3 +9,7 @@
 <h1>potencipmetro com buzzer</h1>
 
 <img width="1577" height="704" alt="image" src="https://github.com/user-attachments/assets/54746e1a-b4c5-4ac3-9b90-d692251a474f" />
+
+<h1>aumento da potencia</h1>
+
+<img width="1335" height="671" alt="image" src="https://github.com/user-attachments/assets/07a9bd67-f1a1-4b45-8ff7-a627f7f6cccc" />
