@@ -13,3 +13,8 @@
 <h1>aumento da potencia</h1>
 
 <img width="1335" height="671" alt="image" src="https://github.com/user-attachments/assets/07a9bd67-f1a1-4b45-8ff7-a627f7f6cccc" />
+
+<h1>diminuir a potencia</h1>
+
+<img width="1459" height="701" alt="image" src="https://github.com/user-attachments/assets/24a20e58-e3cf-4dc0-8560-8b2e9264a905" />
+
