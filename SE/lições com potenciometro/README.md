@@ -18,3 +18,7 @@
 
 <img width="1459" height="701" alt="image" src="https://github.com/user-attachments/assets/24a20e58-e3cf-4dc0-8560-8b2e9264a905" />
 
+<h1>aumenta a potencia</h1>
+<img width="1333" height="624" alt="Captura de tela 2026-06-15 230550" src="https://github.com/user-attachments/assets/714b0c47-cce7-4e24-8123-b59aad9cea46" />
+
+
