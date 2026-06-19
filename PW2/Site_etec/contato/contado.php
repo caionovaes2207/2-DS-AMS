@@ -51,7 +51,7 @@
     <h1><?php echo "Entre em Contato"; ?></h1>
     <p><?php echo "Preencha o formulário abaixo para falar com a gente."; ?></p>
 
-    <form action="processa.php" method="POST" class="formulario">
+    <form action="processa.php" method="POST" class="formulario" id="formContato">
 
         <label><?php echo "Nome:"; ?></label>
         <input type="text" name="nome" required>
