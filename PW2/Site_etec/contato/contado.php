@@ -114,5 +114,7 @@
 
 </footer>
 
+    <script> src="validacao.js"</script>
+    
 </body>
 </html>
