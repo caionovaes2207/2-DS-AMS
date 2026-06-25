@@ -69,5 +69,33 @@ Permitir que o usuário entre em contato com a instituição através de um form
 
  **Preview:**  
 <img width="1378" height="643" alt="contato" src="https://github.com/user-attachments/assets/4772cb81-82c9-4be6-81fb-79ec9e73ce73" />
+
+---
+
+## Validação do Formulário
+
+**Objetivo:**  
+Garantir que o usuário preencha corretamente os campos obrigatórios antes do envio do formulário.
+
+**Validações implementadas em JavaScript:**
+- Nome com no mínimo 3 caracteres;
+- Endereço válido;
+- Telefone com no mínimo 10 dígitos;
+- E-mail em formato válido.
+
+Caso algum campo seja preenchido de forma incorreta, uma mensagem de alerta é exibida e o envio do formulário é bloqueado até que as informações sejam corrigidas.
+
+**Preview:**
+
+### Endereço inválido
+<img width="1919" height="906" alt="endereco_invalido" src="https://github.com/user-attachments/assets/6ef9f24e-ed5c-4e13-afa0-03a7d9c25526" />
+
+### Telefone inválido
+<img width="1919" height="906" alt="telefone_invalido" src="https://github.com/user-attachments/assets/122f1fd3-e29b-4796-94f1-899f7ce98464" />
+
+### E-mail inválido
+<img width="1919" height="641" alt="email_invalido" src="https://github.com/user-attachments/assets/60abdd92-a6d6-4c63-a5e6-e7562c5b69f8" />
+
+### Formulário validado com sucesso
 <img width="586" height="227" alt="confirmação" src="https://github.com/user-attachments/assets/0d649431-ef07-4ad6-83c6-3bb307fea260" />
 
