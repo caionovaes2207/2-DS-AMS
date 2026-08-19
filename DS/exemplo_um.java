@@ -35,7 +35,7 @@ public class exemplo_um {  // Declaração da classe principal
         
         int d = n * 2; // Calcula o dobro do número recebido
 
-        // Mostra o resultado em uma caixa de mensagem
+        // Mostra o resultado em uma caixa de mensagem do JOptionPane
         JOptionPane.showMessageDialog(null, "Dobro de " + n + " é " + d);
     }
 }
