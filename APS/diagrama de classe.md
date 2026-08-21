@@ -13,4 +13,6 @@ dependência de tipo (uso de enumeração); linha simples = associação</p>
 
 <h3>Imagem do diagrma</h3>
 
-Diagrama de Classes UML — Sistema Integrado de Gestão Hospitalar
+
+<img width="1069" height="644" alt="Captura de tela 2026-08-20 213742" src="https://github.com/user-attachments/assets/10d5eaa4-d692-4732-9670-46389e481711" />
+
