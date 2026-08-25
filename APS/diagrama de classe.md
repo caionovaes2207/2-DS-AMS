@@ -10,7 +10,7 @@ atributos, métodos, interface, enumerações e relacionamentos definidos no pro
 <p>Afigura a seguir reproduz o diagrama construído no Astah, Convenção de notação: losango preenchido = composição; losango vazio = agregação; triângulo
 vazio (linha cheia) = generalização/herança; triângulo vazio (linha tracejada) = realização de interface; linha
 tracejada fina até o ponto médio de uma associação = classe de associação; linha tracejada com seta =
-dependência de tipo (uso de enumeração); linha simples = associação</p>
+dependência de tipo (uso de enumeração); linha simples = associação.</p>
 
 <h3>Imagem do diagrma de classe do hospital</h3>
 
