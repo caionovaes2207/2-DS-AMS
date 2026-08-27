@@ -41,7 +41,7 @@ específica, permitindo inclusive múltiplos pagamentos parciais para a mesma co
 
 <h3>4.4 Agregações</h3>
 Foram modeladas três agregações, todas partindo de internacao — o que faz sentido, já que a internação é
-o contexto que reúne, sem ser dono exclusivo, vários eventos que também existem fora dela:
+o contexto que reúne sem ser dono exclusivo, vários eventos que também existem fora dela:
  internacao–exame: os exames realizados durante a internação estão agregados a ela, mas a classe
 exame tem existência própria e independente (também é solicitada em consultas fora de internação).
 
