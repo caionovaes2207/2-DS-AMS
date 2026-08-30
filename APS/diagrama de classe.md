@@ -29,7 +29,7 @@ no paciente; CRM/especialidade/situação no médico; matrícula/cargo/departame
 <h3>4.2 Interface ipagavel</h3>
 A classe cobranca implementa a interface ipagavel, que define o contrato pagar(): void. A escolha de
 isolar essa capacidade em uma interface, em vez de um método comum da classe, permite que outras
-formas de cobrança futuras (por exemplo, taxas avulsas) também possam implementar o mesmo
+formas de cobrança futuras (por exemplo, taxas avulsas), também possam implementar o mesmo
 contrato de pagamento sem precisar herdar de cobranca.
 
 <h3>4.3 Composições</h3>
