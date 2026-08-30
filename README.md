@@ -1,2 +1,2 @@
 # 2-DS-AMS
-Repositorio do segundo ano do curso
+Repositorio do segundo ano do curso de DS (dselvolvimento de sistemas)
