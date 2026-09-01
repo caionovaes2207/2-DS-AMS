@@ -46,7 +46,7 @@ o contexto que reúne sem ser dono exclusivo, vários eventos que também existe
  internacao–exame: os exames realizados durante a internação estão agregados a ela, mas a classe
 exame tem existência própria e independente (também é solicitada em consultas fora de internação).
 
-internacao–consulta: da mesma forma, uma internação agrega as consultas realizadas durante o
+Internacao–Consulta: da mesma forma, uma internação agrega as consultas realizadas durante o
 período de internação, mas a consulta também existe de forma independente para pacientes não
 internados — por isso é agregação, e não composição.
 
