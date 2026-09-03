@@ -76,7 +76,7 @@ solicitação e observações de cada exame pedido em cada consulta. Uma consult
 vários exames, e um mesmo exame pode ser solicitado em consultas diferentes.
 
 <h3>4.7 Faturamento e convênio</h3>
-Cada cobranca está associada à consulta ou à internação que a originou, e pode gerar um ou mais
+Cada cobranca está associada à consulta ou à internação que a originou e pode gerar um ou mais
 lançamentos de pagamento. O pagamento pode, opcionalmente, estar vinculado a um convenio,
 refletindo a regra de que a cobrança pode ser paga pelo paciente, pelo convênio, ou parcialmente por
 ambos.
