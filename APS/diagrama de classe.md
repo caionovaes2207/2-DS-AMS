@@ -59,7 +59,7 @@ Foram criadas quatro enumerações para representar domínios fechados de valore
 enunciado: statusConsulta (agendada, realizada, cancelada), sexo (masculino, feminino, outro),
 situacaoMedico (ativo, afastado) e situacaoCobranca (pendente, parcial, paga).
 
-<h3>4.6 Classes de associação: itemPrescricao e solicitacaoExame</h3>
+<h3>4.6 Classes de Associação: itemPrescricao e solicitacaoExame</h3>
 Estas duas classes foram modeladas com a notação formal de classe de associação (linha tracejada
 ligando a classe ao ponto médio da associação entre as duas classes principais), pois seus atributos
 pertencem exclusivamente ao vínculo entre um par de objetos, e não a nenhuma das classes
