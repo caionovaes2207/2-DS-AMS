@@ -4,7 +4,7 @@ atividade do dia 15/08/2026
 
 <h2>Objetivo do Documento</h2>
 <p>Esterelatório documenta e justifica a lógica de modelagem do Diagrama de Classes UML do Sistema
-Integrado de Gestão Hospitalar exatamente como construído no Astah, reproduzindo os nomes de classe,
+Integrado de Gestão Hospitalar exatamente como construído no Astah e reproduzindo os nomes de classe,
 atributos, métodos, interface, enumerações e relacionamentos definidos no projeto final entregue.</p>
 
 <h2> Diagrama de Classes</h2>
