@@ -23,7 +23,7 @@ dependência de tipo (uso de enumeração); linha simples = associação.</p>
 A classe pessoa concentra os dados comuns a qualquer cadastro (cpf, nome, dataNascimento, sexo,
 endereco, telefone) e os métodos de manutenção de cadastro (cadastrar, atualizar, excluir). As classes
 paciente, medico e funcionarioAdministrativo herdam de pessoa e acrescentam os atributos e
-comportamentos específicos de cada papel exigidos pelo enunciado (prontuário/tipo sanguíneo/alergias
+comportamentos específicos (prontuário/tipo sanguíneo/alergias
 no paciente; CRM/especialidade/situação no médico; matrícula/cargo/departamento no funcionário).
 
 <h3>4.2 Interface ipagavel</h3>
