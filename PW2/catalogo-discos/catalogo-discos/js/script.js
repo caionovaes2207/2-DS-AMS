@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    // ==========================================
+   
     // 1. Busca/filtro em tempo real na listagem
-    // ==========================================
     const campoBusca = document.getElementById('campo-busca');
     if (campoBusca) {
         campoBusca.addEventListener('keyup', function () {
@@ -24,9 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // ==========================================
+
     // 2. Modal de confirmação de exclusão
-    // ==========================================
     const modal = document.getElementById('modal-confirmar');
     const linkConfirmar = document.getElementById('link-confirmar-exclusao');
     let botoesExcluir = document.querySelectorAll('#tabela-disco .btn-excluir');
@@ -58,9 +56,8 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // ==========================================
+    
     // 3. Validação de formulário (criar/editar)
-    // ==========================================
     const formDisco = document.getElementById('form-disco');
     if (formDisco) {
         formDisco.addEventListener('submit', function (e) {
