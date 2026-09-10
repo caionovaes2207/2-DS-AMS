@@ -1,5 +1,5 @@
 <h1>Diagrama de Classes UML — Sistema Integrado de Gestão Hospitalar</h1>
-atividade do dia 15/08/2026
+Atividade do dia 15/08/2026
 
 
 <h2>Objetivo do Documento</h2>
