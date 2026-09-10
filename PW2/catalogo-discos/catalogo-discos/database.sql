@@ -1,7 +1,5 @@
--- ============================================
--- Catálogo de Discos/Músicas - Script do Banco
--- ============================================
 
+-- Catálogo de Discos/Músicas - Script do Banco
 CREATE DATABASE IF NOT EXISTS catalogo_discos
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
@@ -18,7 +16,6 @@ CREATE TABLE IF NOT EXISTS discos (
     atualizado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;
 
--- Dados de exemplo
 INSERT INTO discos (titulo, artista, ano_lancamento, genero) VALUES
 ('Legend', 'Bob Marley & The Wailers', 1984, 'Reggae'),
 ('Thriller', 'Michael Jackson', 1982, 'Pop'),
