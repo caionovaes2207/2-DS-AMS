@@ -1,13 +1,10 @@
 <?php
-/**
- * Conexão com o banco de dados usando PDO
- * Ajuste as credenciais conforme o seu ambiente (XAMPP, WAMP, Docker, etc.)
- */
+
 
 $host = 'localhost';
 $dbname = 'catalogo_discos';
 $user = 'root';
-$senha = ''; // altere se o seu MySQL tiver senha configurada
+$senha = '';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
