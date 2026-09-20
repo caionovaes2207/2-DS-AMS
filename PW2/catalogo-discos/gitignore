@@ -1,0 +1,12 @@
+# Configuração sensível - nunca versionar
+.env
+
+# Dependências do Composer (caso use no futuro)
+/vendor/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
