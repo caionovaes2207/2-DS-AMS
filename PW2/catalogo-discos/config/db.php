@@ -1,7 +1,6 @@
 <?php
 /**
- * Conexão com o banco de dados usando PDO
- * As credenciais vêm do arquivo .env (não versionado no Git)
+ * Conexão com o banco de dados 
  */
 
 function carregarEnv($caminho) {
@@ -11,7 +10,7 @@ function carregarEnv($caminho) {
 
     $linhas = file($caminho, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     foreach ($linhas as $linha) {
-        if (strpos(trim($linha), '#') === 0) continue; // ignora comentários
+        if (strpos(trim($linha), '#') === 0) continue; 
         if (strpos($linha, '=') === false) continue;
 
         [$chave, $valor] = explode('=', $linha, 2);
