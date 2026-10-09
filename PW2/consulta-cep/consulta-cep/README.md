@@ -24,14 +24,6 @@ Aplicação web em **HTML, CSS e JavaScript** que consulta a API pública **[Via
 
    Também são mostrados complemento, região, DDD e código IBGE.
 
-## Requisitos da atividade atendidos
-
-- [x] Título do sistema
-- [x] Formulário com campo de pesquisa
-- [x] Botão de consulta
-- [x] Área de apresentação dos resultados
-- [x] Requisição HTTP a uma API pública
-- [x] Tratamento do JSON retornado
 
 ## Detalhes do projeto
 
@@ -57,12 +49,6 @@ consulta-cep/
 
 Baixe o projeto e abra o `index.html` no navegador. Não precisa instalar nada.
 
-Ou com um servidor local:
-
-```bash
-git clone https://github.com/SEU-USUARIO/consulta-cep.git
-cd consulta-cep
-python -m http.server 8000
 ```
 Acesse <http://localhost:8000>. Também pode ser publicado de graça com **GitHub Pages**.
 
@@ -72,4 +58,4 @@ HTML5 · CSS3 · JavaScript (fetch / async-await) · JSON · API ViaCEP
 
 ## Autor
 
-Seu nome — curso/turma
+caio Novaes Dos Santos
