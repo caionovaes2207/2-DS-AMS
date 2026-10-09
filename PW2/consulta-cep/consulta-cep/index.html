@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Consulta de CEP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<main class="pagina">
+
+    <header class="topo">
+        <h1>Consulta de CEP</h1>
+        <p>Informe um CEP e descubra o endereço completo: rua, bairro, cidade e estado.</p>
+    </header>
+
+    <form class="busca" id="formulario" role="search">
+        <label for="cep">CEP</label>
+        <div class="busca__linha">
+            <input type="text" id="cep" name="cep" inputmode="numeric" maxlength="9"
+                   placeholder="Ex.: 01001-000" autocomplete="off" required autofocus>
+            <button type="submit" id="botao">Consultar</button>
+        </div>
+    </form>
+
+    <section class="resultados" id="resultados" aria-live="polite">
+        <p class="mensagem mensagem--vazio">O endereço aparece aqui. Digite um CEP com 8 números e toque em Consultar.</p>
+    </section>
+
+    <footer class="rodape">
+        Dados da <a href="https://viacep.com.br" target="_blank" rel="noopener">API ViaCEP</a>
+    </footer>
+</main>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
