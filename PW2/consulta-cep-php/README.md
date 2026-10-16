@@ -4,6 +4,8 @@ Aplicação web em **PHP** que consulta a API pública **[ViaCEP](https://viacep
 
 > Atividade: consumo de API pública com PHP (requisição HTTP → JSON → exibição).
 
+https://github.com/user-attachments/assets/9133a490-1c83-406e-9650-2987afefd7d9
+
 ## Como funciona
 
 1. O usuário informa um CEP (ex.: `01001-000`) e clica em **Consultar**.
