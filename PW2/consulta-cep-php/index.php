@@ -1,26 +1,15 @@
 <?php
-/**
- * Consulta de CEP — API ViaCEP
- * O PHP recebe o CEP do formulário, faz a requisição HTTP (GET) à API,
- * interpreta o JSON retornado e apresenta o endereço ao usuário.
- */
 
 declare(strict_types=1);
 
 const API_BASE = 'https://viacep.com.br/ws';
 
-/** Escapa texto para HTML (evita XSS). */
+
 function e(?string $texto): string
 {
     return htmlspecialchars((string) $texto, ENT_QUOTES, 'UTF-8');
 }
 
-/**
- * Consulta o CEP na ViaCEP.
- * Retorna ['dados' => array|null, 'erro' => string|null]
- *  - dados = null e erro = null  -> CEP não encontrado
- *  - erro preenchido             -> falha de conexão ou resposta inesperada
- */
 function consultarCep(string $cep): array
 {
     $url = API_BASE . '/' . $cep . '/json/';
@@ -38,27 +27,26 @@ function consultarCep(string $cep): array
     if ($corpo === false) {
         return ['dados' => null, 'erro' => $falha ?: 'Falha de conexão com a API.'];
     }
-    if ($codigo === 400) {                       // formato de CEP inválido
+    if ($codigo === 400) {                       
         return ['dados' => null, 'erro' => null];
     }
     if ($codigo !== 200) {
         return ['dados' => null, 'erro' => "A API respondeu com o código HTTP $codigo."];
     }
 
-    $dados = json_decode($corpo, true);          // interpreta o JSON
+    $dados = json_decode($corpo, true);          
     if (!is_array($dados)) {
         return ['dados' => null, 'erro' => 'A API devolveu uma resposta inválida.'];
     }
-    if (!empty($dados['erro'])) {                // CEP inexistente: {"erro": true}
+    if (!empty($dados['erro'])) {                
         return ['dados' => null, 'erro' => null];
     }
 
     return ['dados' => $dados, 'erro' => null];
 }
 
-// ---------- Processamento do formulário ----------
 $cepDigitado = trim($_GET['cep'] ?? '');
-$cepNumeros  = preg_replace('/\D/', '', $cepDigitado);   // só os números
+$cepNumeros  = preg_replace('/\D/', '', $cepDigitado);   
 $resultado   = null;
 $aviso       = null;
 
