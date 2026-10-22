@@ -53,7 +53,7 @@ consulta-cep/
 
 ## Como executar
 
-Requisitos: **PHP 8.0+** com a extensão **cURL** habilitada.
+Requisitos: **PHP 8.2+** com a extensão **cURL** habilitada.
 
 ```bash
 git clone https://github.com/SEU-USUARIO/consulta-cep.git
